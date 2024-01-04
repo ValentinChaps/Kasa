@@ -1,0 +1,475 @@
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .chezVous{
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    padding-top: 90px;
+    
+
+    .chezVousImage{
+        object-fit:cover;
+        height: 250px;
+        width: 100%;
+        border-radius: 25px;
+        filter: brightness(0.7);
+        }
+
+    .chezVousTexte{
+        position: absolute;
+        color: white;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 50px;
+    }
+    
+    }
+    
+}
+
+// /* _Body */
+
+// width: 1240px;
+// height: 1095px;
+
+
+// /* Inside auto layout */
+// flex: none;
+// order: 1;
+// flex-grow: 0;
+
+
+// /* Gallery */
+
+// position: absolute;
+// width: 1240px;
+// height: 829px;
+// left: 100px;
+// top: 429px;
+
+
+
+// /* Background */
+
+// position: absolute;
+// left: 0%;
+// right: 0%;
+// top: 0%;
+// bottom: 0%;
+
+// background: #F7F7F7;
+// border-radius: 25px;
+
+
+// /* .Thumb */
+
+// position: absolute;
+// left: 4.03%;
+// right: 68.55%;
+// top: 53.8%;
+// bottom: 5.19%;
+
+
+
+// /* Img */
+
+// position: absolute;
+// left: 0%;
+// right: 0%;
+// top: 0%;
+// bottom: 0%;
+
+// background: #FF6060;
+// border-radius: 10px;
+
+
+// /* Rectangle 2 */
+
+// position: absolute;
+// left: 0%;
+// right: 0%;
+// top: 0%;
+// bottom: 0%;
+
+// background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
+// border-radius: 10px;
+
+
+// /* Titre de la location */
+
+// position: absolute;
+// left: 5.88%;
+// right: 5.88%;
+// top: 78.82%;
+// bottom: 5.88%;
+
+// font-family: 'Montserrat';
+// font-style: normal;
+// font-weight: 500;
+// font-size: 18px;
+// line-height: 142.6%;
+// /* or 26px */
+// display: flex;
+// align-items: flex-end;
+
+// color: #FFFFFF;
+
+
+
+// /* .Thumb */
+
+// position: absolute;
+// left: 36.29%;
+// right: 36.29%;
+// top: 6.76%;
+// bottom: 52.23%;
+
+
+
+// /* Img */
+
+// position: absolute;
+// left: 0%;
+// right: 0%;
+// top: 0%;
+// bottom: 0%;
+
+// background: #FF6060;
+// border-radius: 10px;
+
+
+// /* Rectangle 2 */
+
+// position: absolute;
+// left: 0%;
+// right: 0%;
+// top: 0%;
+// bottom: 0%;
+
+// background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
+// border-radius: 10px;
+
+
+// /* Titre de la location */
+
+// position: absolute;
+// left: 5.88%;
+// right: 5.88%;
+// top: 78.82%;
+// bottom: 5.88%;
+
+// font-family: 'Montserrat';
+// font-style: normal;
+// font-weight: 500;
+// font-size: 18px;
+// line-height: 142.6%;
+// /* or 26px */
+// display: flex;
+// align-items: flex-end;
+
+// color: #FFFFFF;
+
+
+
+// /* .Thumb */
+
+// position: absolute;
+// left: 4.03%;
+// right: 68.55%;
+// top: 6.76%;
+// bottom: 52.23%;
+
+
+
+// /* Img */
+
+// position: absolute;
+// left: 0%;
+// right: 0%;
+// top: 0%;
+// bottom: 0%;
+
+// background: #FF6060;
+// border-radius: 10px;
+
+
+// /* Rectangle 2 */
+
+// position: absolute;
+// left: 0%;
+// right: 0%;
+// top: 0%;
+// bottom: 0%;
+
+// background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
+// border-radius: 10px;
+
+
+// /* Titre de la location */
+
+// position: absolute;
+// left: 5.88%;
+// right: 5.88%;
+// top: 78.82%;
+// bottom: 5.88%;
+
+// font-family: 'Montserrat';
+// font-style: normal;
+// font-weight: 500;
+// font-size: 18px;
+// line-height: 142.6%;
+// /* or 26px */
+// display: flex;
+// align-items: flex-end;
+
+// color: #FFFFFF;
+
+
+
+// /* .Thumb */
+
+// position: absolute;
+// left: 36.29%;
+// right: 36.29%;
+// top: 53.8%;
+// bottom: 5.19%;
+
+
+
+// /* Img */
+
+// position: absolute;
+// left: 0%;
+// right: 0%;
+// top: 0%;
+// bottom: 0%;
+
+// background: #FF6060;
+// border-radius: 10px;
+
+
+// /* Rectangle 2 */
+
+// position: absolute;
+// left: 0%;
+// right: 0%;
+// top: 0%;
+// bottom: 0%;
+
+// background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
+// border-radius: 10px;
+
+
+// /* Titre de la location */
+
+// position: absolute;
+// left: 5.88%;
+// right: 5.88%;
+// top: 78.82%;
+// bottom: 5.88%;
+
+// font-family: 'Montserrat';
+// font-style: normal;
+// font-weight: 500;
+// font-size: 18px;
+// line-height: 142.6%;
+// /* or 26px */
+// display: flex;
+// align-items: flex-end;
+
+// color: #FFFFFF;
+
+
+
+// /* .Thumb */
+
+// position: absolute;
+// left: 68.55%;
+// right: 4.03%;
+// top: 6.76%;
+// bottom: 52.23%;
+
+
+
+// /* Img */
+
+// position: absolute;
+// left: 0%;
+// right: 0%;
+// top: 0%;
+// bottom: 0%;
+
+// background: #FF6060;
+// border-radius: 10px;
+
+
+// /* Rectangle 2 */
+
+// position: absolute;
+// left: 0%;
+// right: 0%;
+// top: 0%;
+// bottom: 0%;
+
+// background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
+// border-radius: 10px;
+
+
+// /* Titre de la location */
+
+// position: absolute;
+// left: 5.88%;
+// right: 5.88%;
+// top: 78.82%;
+// bottom: 5.88%;
+
+// font-family: 'Montserrat';
+// font-style: normal;
+// font-weight: 500;
+// font-size: 18px;
+// line-height: 142.6%;
+// /* or 26px */
+// display: flex;
+// align-items: flex-end;
+
+// color: #FFFFFF;
+
+
+
+// /* .Thumb */
+
+// position: absolute;
+// left: 68.55%;
+// right: 4.03%;
+// top: 53.8%;
+// bottom: 5.19%;
+
+
+
+// /* Img */
+
+// position: absolute;
+// left: 0%;
+// right: 0%;
+// top: 0%;
+// bottom: 0%;
+
+// background: #FF6060;
+// border-radius: 10px;
+
+
+// /* Rectangle 2 */
+
+// position: absolute;
+// left: 0%;
+// right: 0%;
+// top: 0%;
+// bottom: 0%;
+
+// background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
+// border-radius: 10px;
+
+
+// /* Titre de la location */
+
+// position: absolute;
+// left: 5.88%;
+// right: 5.88%;
+// top: 78.82%;
+// bottom: 5.88%;
+
+// font-family: 'Montserrat';
+// font-style: normal;
+// font-weight: 500;
+// font-size: 18px;
+// line-height: 142.6%;
+// /* or 26px */
+// display: flex;
+// align-items: flex-end;
+
+// color: #FFFFFF;
+
+
+
+// /* _Section 1 */
+
+// position: absolute;
+// width: 1240px;
+// height: 223px;
+// left: 100px;
+// top: 163px;
+
+
+
+// /* Mask Group */
+
+// position: absolute;
+// width: 1240px;
+// height: 223px;
+// left: 100px;
+// top: 163px;
+
+
+
+// /* Background */
+
+// position: absolute;
+// width: 1240px;
+// height: 223px;
+// left: 100px;
+// top: 163px;
+
+// background: #F7F7F7;
+// border-radius: 25px;
+
+
+// /* IMG */
+
+// position: absolute;
+// width: 1240px;
+// height: 1875px;
+// left: 100px;
+// top: -663px;
+
+// background: url(eric-muhr-P_XxsdVgtpQ-unsplash.jpg);
+
+
+// /* Background */
+
+// position: absolute;
+// width: 1240px;
+// height: 223px;
+// left: 100px;
+// top: 163px;
+
+// background: #000000;
+// mix-blend-mode: darken;
+// opacity: 0.3;
+// border-radius: 25px;
+
+
+// /* Chez vous, partout et ailleurs */
+
+// position: absolute;
+// width: 705px;
+// height: 68px;
+// left: calc(50% - 705px/2 + 5.5px);
+// top: 241px;
+
+// font-family: 'Montserrat';
+// font-style: normal;
+// font-weight: 500;
+// font-size: 48px;
+// line-height: 142.6%;
+// /* or 68px */
+// display: flex;
+// align-items: flex-end;
+
+// color: #FFFFFF;
+

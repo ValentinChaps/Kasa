@@ -3,20 +3,24 @@
   }
 
 footer{
-    background-color:  black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
 
         .logo{
-        height: 80px;
-        padding-bottom: 20px;
+        height: 40px;
+        padding-bottom: 40px;
         padding-top: 50px;
         }
 
         .copyright{
-        padding-bottom: 20px;
+        padding-bottom: 30px;
         color: white;
         font-family: 'Montserrat';
         font-style: normal;
