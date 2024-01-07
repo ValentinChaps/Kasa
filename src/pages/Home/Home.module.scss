@@ -12,25 +12,38 @@ main{
     padding-top: 90px;
     
 
-    .chezVousImage{
-        object-fit:cover;
-        height: 250px;
-        width: 100%;
-        border-radius: 25px;
-        filter: brightness(0.7);
-        }
+        .chezVousImage{
+            object-fit:cover;
+            height: 250px;
+            width: 100%;
+            border-radius: 25px;
+            filter: brightness(0.7);
+            }
 
-    .chezVousTexte{
-        position: absolute;
-        color: white;
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 50px;
-    }
+        .chezVousTexte{
+            position: absolute;
+            color: white;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 50px;
+        }
     
     }
-    
+
+    .gallery{
+        border-radius: 25px;
+        background: #F6F6F6;
+        margin: 70px;
+        padding: 30px;
+        
+        ul{
+            display: grid;
+            grid-template-columns: 500px 500px 500px;
+            flex-direction: column;
+            width: 100%;
+        }
+    }
 }
 
 // /* _Body */

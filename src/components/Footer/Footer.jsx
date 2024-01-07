@@ -1,5 +1,5 @@
 import css from './Footer.module.scss'
-import logo from '../assets/logoKasaFooter.PNG'
+import logo from '../../assets/logoKasaFooter.PNG'
 
 function Footer() {
   return (
