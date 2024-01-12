@@ -1,14 +1,13 @@
-
-import css from './Rating.module.scss';
+import css from './Rating.module.scss'
 
 function Rating({ star }) {
-  const range = [1, 2, 3, 4, 5];
+  const range = [1, 2, 3, 4, 5]
 
   const getColor = (index) => {
     if (star >= index) {
-      return "#FF6060"; 
+      return "#FF6060" 
     }
-    return "#E3E3E3";
+    return "#E3E3E3"
   };
 
   return (
@@ -22,7 +21,7 @@ function Rating({ star }) {
         </span>
       ))}
     </div>
-  );
+  )
 }
 
-export default Rating;
+export default Rating
