@@ -21,7 +21,7 @@ function House() {
                 
                 <div>
                     <h3>{house.title}</h3>
-                    <p className={css.description}>{house.description}</p>
+                    <p className={css.description}>{house.location}</p>
                     <div className= {css.tags}><Tags
                         tag={house.tags}
                     /></div>
