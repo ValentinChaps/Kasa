@@ -5,7 +5,7 @@ import Home from './pages/Home/Home'
 import Footer from './components/Footer/Footer'
 import About from './pages/About/About'
 import Header from './components/Header/Header'
-import Error from './components/Error/Error'
+import Error from './pages/Error/Error'
 import House from './pages/House/House'
 
 
@@ -18,7 +18,7 @@ ReactDOM.render(
         <Route path="/" element={<Home />} />
         <Route path="/a-propos" element={<About />} />
         <Route path="/:id" element={<House />} />
-        <Route path="*" element={<Error />} />
+        <Route path="/error" element={<Error />} />
       </Routes>
       <Footer/>
     </Router>

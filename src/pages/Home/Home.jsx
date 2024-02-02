@@ -11,7 +11,7 @@ function Home() {
         <p className={css.chezVousTexte}>Chez vous, partout et ailleurs</p>
       </div>
       <div className={css.gallery}>
-        <ul>
+        <div>
               {data.map(({title, id, cover}) => (
               <Card
                 id={id}
@@ -19,7 +19,7 @@ function Home() {
                 title={title}
               />
               ))}
-        </ul>
+        </div>
       </div>
     </main>
   )
