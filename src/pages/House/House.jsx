@@ -1,4 +1,3 @@
-import React, { useEffect } from 'react';
 import { useParams } from "react-router-dom";
 import { data } from '../../data/data'
 import Rating from "../../components/Rating/Rating";
@@ -7,6 +6,7 @@ import Carousel from "../../components/Carousel/Carousel";
 import Collapse from '../../components/Collapse/Collapse.jsx'
 import css from "./House.module.scss"
 import Tags from "../../components/Tags/Tags"
+import { Navigate } from "react-router-dom";
 
 
 function House() {
@@ -14,39 +14,36 @@ function House() {
     let { id } = useParams();
     const house = data.find((house) => house.id === id)
 
-    useEffect(() => {
-        if (!house) {
-            window.location.href = '/error'
-        }
-    }, [house])
-
     if (!house) {
-        return null
-    }
-
+        return <Navigate to="/error"/>
+    } else {
+      
     return (
         <section className={css.container} key={id}>
             <Carousel 
             pictures= {house.pictures}
             />
           <div className={css.titleDescriptionTags}> 
-            <div>
+            <div className={css.titleTags}>
               <h3>{house.title}</h3>
               <p className={css.description}>{house.location}</p>
-              <div className= {css.tags}><Tags
-                  tag={house.tags}
-              />
+              <div className= {css.tags}>
+                <Tags
+                  tag={house.tags}/>
               </div>
             </div>
-              <div>
-                <Host
+            <div className={css.hostAndRating}>
+              <div className={css.host}>
+                <Host 
                   id={id}
                   hostName={house.host.name}
-                  hostPicture={house.host.picture}
-                />
+                  hostPicture={house.host.picture}/>
+              </div>
+              <div>
                 <Rating 
                 star={house.rating}/>
               </div>
+            </div>
           </div> 
           <div className={css.collapse}>
             <span>
@@ -66,7 +63,7 @@ function House() {
           </div>
         </section>
     
-    )
+    )}
 }
 
 export default House;

@@ -1,25 +1,24 @@
 import chezVous from '../../assets/photoChezVous.PNG'
-import css from './Home.module.scss'
+import './Home.scss'
 import Card from '../../components/Card/Card.jsx'
 import { data } from '../../data/data'
+import Banner from '../../components/Banner/Banner.jsx'
+
 
 function Home() {
   return (
     <main>
-      <div className={css.chezVous}>
-        <img className={css.chezVousImage} src={chezVous} alt=''></img>
-        <p className={css.chezVousTexte}>Chez vous, partout et ailleurs</p>
+      <div className="chezVous">
+        <Banner img={chezVous} text="Chez vous, partout et ailleurs"/>
       </div>
-      <div className={css.gallery}>
-        <div>
-              {data.map(({title, id, cover}) => (
-              <Card
-                id={id}
-                cover={cover}
-                title={title}
-              />
-              ))}
-        </div>
+      <div className="gallery">
+            {data.map(({title, id, cover}) => (
+            <Card
+              id={id}
+              cover={cover}
+              title={title}
+            />
+            ))}
       </div>
     </main>
   )
