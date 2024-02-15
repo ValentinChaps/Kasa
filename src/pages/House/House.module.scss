@@ -1,20 +1,37 @@
 .container{
-    display: flex;
-    flex-direction: column;
     align-items: center;
+    flex-grow: 1;
 
     .titleDescriptionTags{
         display: flex;
-        width: 1240px;
+        width: 100%;
         justify-content: space-between;
+        @media (max-width: 900px){
+            justify-content: space-between;
+            flex-direction: column
+            }
     }
 
     .hostAndRating{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         padding-bottom: 20px;
+        @media (max-width: 900px){
+            justify-content: space-between;
+            flex-direction: row-reverse;
+            padding-top: 15px;
+            padding-bottom: 0px;
+            }
     }
 
-    .host{
-        padding-bottom: 10px;
+    .rating{
+        padding-top: 10px;
+        padding-left: 140px;
+        @media (max-width: 900px){
+            padding-top: 0px;
+            padding-left: 0px;
+            }
     }
 
     h3{
@@ -24,6 +41,9 @@
         font-size: 36px;
         font-style: normal;
         font-weight: 500;
+        @media (max-width: 900px){
+            font-size: 18px;
+            }
     }
 
     .description{
@@ -32,19 +52,27 @@
         font-size: 18px;
         font-style: normal;
         font-weight: 500;
+        @media (max-width: 900px){
+            font-size: 14px;
+            }
     }
 
     .tags{
         padding-top: 20px;
-        
     }
 
     .collapse{
-        display: grid;
-        grid-template-columns: 600px 600px;
+        display: flex;
+        width: 100%;
+        padding-top: 30px;
 
-        span{
-            padding: 40px;
+        @media (max-width: 900px){
+        flex-direction: column;
+        }
+
+        div{
+            width: 100%;
+            padding-right: 40px;
         }
     }
 

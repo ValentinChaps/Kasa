@@ -1,21 +1,25 @@
 .container{
+    margin: auto;
     display: flex;
-    justify-content: flex-end;
 
     img{
         object-fit: cover;
         border-radius: 300px;
+        @media (max-width: 900px){
+            width: 64px;
+            height: 64px;
+            }
     }
 
     h2{
         color: #FF6060;
-        text-align: right;
         font-family: Montserrat;
-        font-size: 25px;
-        font-style: normal;
+        font-size: 18px;
         font-weight: 500;
-        padding-top: 40px;
-        padding-right: 30px;
-        width: 20%;
+        line-height: 26px;
+        text-align: right;
+        width: 80%;
+        padding-top: 10px;
+        
     }
 }

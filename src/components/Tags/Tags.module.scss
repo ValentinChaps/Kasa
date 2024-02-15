@@ -1,15 +1,24 @@
+.tags{
+    display: flex;
 
-.tag{
-width: 365px;
-height: 25px;
-color: white;
-font-family: Montserrat;
-font-size: 18px;
-font-style: normal;
-background-color: #FF6060;
-margin-right: 20px;
-padding: 5px 20px 5px 20px;
-border-radius: 10px;
+    .tag{
+    display: flex;
+    color: white;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    background-color: #FF6060;
+    margin-right: 20px;
+    padding: 5px 20px 5px 20px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    @media (max-width: 900px){
+        font-size: 8px;
+        }
+    }
 }
+
+
 
 

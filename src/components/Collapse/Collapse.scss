@@ -5,17 +5,24 @@
   align-items: center;
   width: 100%;
   border-radius: 5px;
-  height: 50px;
+  height: 52px;
   font-family: Montserrat;
   color: white;
   background-color: #ff6060;
   padding: 0 20px;
   border: none;
   z-index: 1;
+  @media (max-width: 900px){
+    height: 30px;
+    }
 
     img {
   width: 35px;
   height: 35px;
+  @media (max-width: 900px){
+    width: 28px;
+    height: 28px;
+    }
   }
 }
 
@@ -45,6 +52,10 @@
   font-size: 25px;
   line-height: 1.15rem;
   font-weight: 500;
+  @media (max-width: 900px){
+    font-size: 12px;
+    }
+  
   }
 
   p{
@@ -54,6 +65,9 @@
   font-weight: 500;
   line-height: 2rem;
   margin-bottom: 30px;
+  @media (max-width: 900px){
+    font-size: 13px;
+    }
   }
 }
 
@@ -63,6 +77,9 @@
     font-size: 25px;
     line-height: 1.15rem;
     font-weight: 500;
+    @media (max-width: 900px){
+    font-size: 13px;
+    }
   }
 
   p, ul{
@@ -72,6 +89,10 @@
   font-weight: 500;
   line-height: 1.6rem;
   margin-bottom: 2px;
+  @media (max-width: 900px){
+    font-size: 12px;
+    }
+  
   }
 
 }

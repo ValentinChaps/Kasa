@@ -29,7 +29,7 @@ function House() {
               <p className={css.description}>{house.location}</p>
               <div className= {css.tags}>
                 <Tags
-                  tag={house.tags}/>
+                  tags={house.tags}/>
               </div>
             </div>
             <div className={css.hostAndRating}>
@@ -39,27 +39,27 @@ function House() {
                   hostName={house.host.name}
                   hostPicture={house.host.picture}/>
               </div>
-              <div>
+              <div className={css.rating}>
                 <Rating 
                 star={house.rating}/>
               </div>
             </div>
           </div> 
           <div className={css.collapse}>
-            <span>
+            <div>
               <Collapse
               size="small"
               title="Description"
               content={house.description}
               />
-            </span>
-            <span>
+            </div>
+            <div>
             <Collapse
               size="small"
               title="Équipements"
               content={house.equipments}
             />
-            </span>
+            </div>
           </div>
         </section>
     

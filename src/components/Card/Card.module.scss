@@ -1,11 +1,17 @@
 .cards{
-    padding: 35px;
+    padding: 24px;
+    @media (max-width: 900px){
+        padding: 13px;
+        }
 }
 
 .card{
     position: relative;
     width: 340px;
     height: 340px;
+    @media (max-width: 900px){
+        width: 100%;
+    }
 
     img{
         object-fit: cover;
@@ -36,6 +42,10 @@
         border-radius: 10px;
         background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 0%, rgba(0, 0, 0, 0.50) 100%);
         display: flex;
+
+        @media (max-width: 900px){
+            width: 100%;
+        }
     }
     
 }

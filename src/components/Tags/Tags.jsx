@@ -1,13 +1,13 @@
 import css from "../../components/Tags/Tags.module.scss"
 
-function Tags({tag}){
+function Tags({tags}){
     return (
         <div className={css.tags}>        
-          {tag.map((item) => {
+          {tags.map((item, id) => {
             return (
-              <span className={css.tag}>
+              <div className={css.tag} key={id}>
                 {item}
-              </span>
+              </div>
             );
           })} 
         </div>

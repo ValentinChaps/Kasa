@@ -1,17 +1,13 @@
 .slogan {
-  width: 1240px;
-  height: 223px;
-
-  @media (max-width: 1240px){
-    width: 800px; 
-}
-  
+  width: 100%;
+ 
   .contentSlogan {
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
     border-radius: 25px;
   }
 
@@ -22,6 +18,10 @@
     object-fit: cover;
     border-radius: 25px;
     filter: brightness(0.7);
+
+    @media (max-width: 900px){
+        height: 111px;
+    }
   }
 
   h1 {
@@ -34,8 +34,12 @@
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
-    font-size: 3rem;
+    font-size: 48px;
     font-weight: 500;
+
+    @media (max-width: 900px){
+      font-size: 24px;
+    }
   }
 
   .sloganText {

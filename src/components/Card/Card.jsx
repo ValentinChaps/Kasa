@@ -5,7 +5,7 @@ function Card({title, id, cover}) {
     return (
         <div className={css.cards}>
             <Link to={`/${id}`}>
-                <div className={css.card} key={id}>
+                <div className={css.card}>
                     <img src={cover} alt=''></img>
                     <div className={css.overlay}></div>
                     <h3>{title}</h3>    

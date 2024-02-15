@@ -1,0 +1,72 @@
+.container{
+    margin: auto;
+    flex-grow: 1;
+    
+    .error{
+        padding-top: 40px;
+
+        h1{
+            font-family: Montserrat;
+            font-style: normal;
+            font-size: 288px;
+            font-weight: 700;
+            line-height: 411px;
+            color: #FF6060;
+            text-align: center;
+
+            @media (max-width: 900px){
+                font-size: 96px;
+                line-height: 137px;
+                letter-spacing: 0em;
+
+            }
+        }
+    }
+    .errorDescription{
+        padding-top: 40px;
+
+        h2{
+            font-family: Montserrat;
+            font-size: 36px;
+            font-weight: 500;
+            line-height: 51px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #FF6060;
+
+            @media (max-width: 900px){
+                font-size: 18px;
+                line-height: 26px;
+                text-align: center;
+            }
+        }
+    }
+
+    .errorLink{
+        padding-top: 60px;
+
+        .link{
+            color: #FF6060;
+        }
+
+        h3{
+            font-family: Montserrat;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 26px;
+            letter-spacing: 0em;
+            text-align: center;
+            color: #FF6060;
+
+            @media (max-width: 900px){
+                font-size: 14px;
+                line-height: 20px;
+                letter-spacing: 0em;
+                text-align: center;
+
+            }
+        }
+    }
+
+}
+

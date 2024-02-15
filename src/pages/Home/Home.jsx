@@ -8,15 +8,14 @@ import Banner from '../../components/Banner/Banner.jsx'
 function Home() {
   return (
     <main>
-      <div className="chezVous">
-        <Banner img={chezVous} text="Chez vous, partout et ailleurs"/>
-      </div>
+      <Banner img={chezVous} text="Chez vous, partout et ailleurs"/>
       <div className="gallery">
             {data.map(({title, id, cover}) => (
             <Card
               id={id}
               cover={cover}
               title={title}
+              key={id}
             />
             ))}
       </div>

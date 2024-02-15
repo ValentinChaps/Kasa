@@ -1,17 +1,17 @@
 .about{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
-    .banner{
-        padding-top: 40px;
-    }
+    margin: auto;
+    padding: 20px;
+    flex-grow: 1;
 
     .collapses{
+        margin: auto;
         width: 88%;
         padding-top: 40px;
         padding-bottom: 40px;
+        
+        @media (max-width: 900px){
+            width: 100%;
+        }
 
         div{
             margin-top: 20px;
