@@ -2,6 +2,13 @@
     margin: auto;
     display: flex;
 
+    .hostName{
+        padding-top: 30px;
+        @media (max-width: 900px){
+            padding-top: 0px;
+            }
+    }
+
     img{
         object-fit: cover;
         border-radius: 300px;

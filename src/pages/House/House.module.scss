@@ -73,6 +73,10 @@
         div{
             width: 100%;
             padding-right: 40px;
+            @media (max-width: 900px){
+                width:auto;
+                padding-right: 0px;
+                }
         }
     }
 
