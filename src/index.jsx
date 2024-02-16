@@ -13,17 +13,19 @@ import './index.scss'
 const root = ReactDOM.createRoot(document.getElementById("root"))
 root.render(
   <React.StrictMode>
-    <div className='mainContainer'>
+    
       <Router>
-        <Header />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/a-propos" element={<About />} />
-          <Route path="/:id" element={<House />} />
-          <Route path="/error" element={<Error />} />
-        </Routes>
+        <div className='mainContainer'>
+          <Header />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/a-propos" element={<About />} />
+            <Route path="/:id" element={<House />} />
+            <Route path="/error" element={<Error />} />
+          </Routes>
+        </div>
       </Router>
     <Footer/>
-    </div>
+    
   </React.StrictMode>,
 )

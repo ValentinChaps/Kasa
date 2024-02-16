@@ -8,14 +8,17 @@ footer{
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 100vw;
-  margin-left: calc((100% - 100vw)/2);
+  width: 100%;
+  
 
 
         .logo{
         height: 40px;
         padding-bottom: 40px;
         padding-top: 50px;
+        @media (max-width: 900px){
+          padding-bottom: 10px;
+          }
         }
 
         .copyright{
@@ -25,6 +28,14 @@ footer{
         font-style: normal;
         font-weight: 500;
         font-size: 24px;
+        @media (max-width: 900px){
+          font-size: 12px;
+          margin-left: 50px;
+          p{
+            width: 70%;
+            text-align: center;
+          }
+          }
         }
 }
 
