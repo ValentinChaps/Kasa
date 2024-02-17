@@ -20,7 +20,7 @@
         @media (max-width: 900px){
             justify-content: space-between;
             flex-direction: row-reverse;
-            padding-top: 15px;
+            padding-top: 5px;
             padding-bottom: 0px;
             }
     }
@@ -65,9 +65,9 @@
         display: flex;
         width: 100%;
         padding-top: 30px;
-
         @media (max-width: 900px){
         flex-direction: column;
+        padding-top: 15px;
         }
 
         div{

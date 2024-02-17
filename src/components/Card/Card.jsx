@@ -3,15 +3,10 @@ import { Link } from 'react-router-dom'
 
 function Card({title, id, cover}) {
     return (
-        <div className={css.cards}>
-            <Link to={`/${id}`}>
-                <div className={css.card}>
-                    <img src={cover} alt=''></img>
-                    <div className={css.overlay}></div>
-                    <h3>{title}</h3>    
-                </div>  
-            </Link>
-        </div>
+        <Link to={`/${id}` } className={css.card}>
+            <img src={cover} alt=''></img>
+            <h2>{title}</h2>      
+        </Link>
     )
 }
 

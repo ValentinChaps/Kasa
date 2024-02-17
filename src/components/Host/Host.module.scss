@@ -13,8 +13,9 @@
         object-fit: cover;
         border-radius: 300px;
         @media (max-width: 900px){
-            width: 64px;
-            height: 64px;
+            width: 32px;
+            height: 32px;
+            margin-top: 10px;
             }
     }
 
@@ -23,10 +24,12 @@
         font-family: Montserrat;
         font-size: 18px;
         font-weight: 500;
-        line-height: 26px;
+        line-height: 17.11px;
         text-align: right;
         width: 80%;
         padding-top: 10px;
-        
+        @media (max-width: 900px){
+            font-size: 12px
+            }
     }
 }

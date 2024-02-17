@@ -4,6 +4,9 @@ main{
     justify-content: center;
     align-items: center;
     padding: 20px;
+    @media (max-width: 900px){
+        padding: 0;
+    }
 
     .gallery{
         display: flex;
@@ -16,19 +19,15 @@ main{
         margin-bottom: 50px;
         justify-content: center;
         align-items: center;
-
         @media (max-width: 900px){
             background: none;
             flex-direction: column;
             margin-top: 0px;
             padding-top: 20px;
         }
-        
             div{
                 display: flex;
-            }
-
-            
+            }   
     }
 }
 
