@@ -53,7 +53,7 @@ function House() {
               content={house.description}
               />
             </div>
-            <div>
+            <div className={css.equipement}>
             <Collapse
               size="small"
               title="Équipements"

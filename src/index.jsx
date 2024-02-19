@@ -23,9 +23,10 @@ root.render(
             <Route path="/:id" element={<House />} />
             <Route path="/error" element={<Error />} />
           </Routes>
+          <Footer/>
         </div>
       </Router>
-    <Footer/>
+    
     
   </React.StrictMode>,
 )

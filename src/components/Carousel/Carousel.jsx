@@ -8,15 +8,20 @@ const Carousel = ({ pictures }) => {
 
   const nextSlide = () => {
     setSlide(slide === pictures.length - 1 ? 0 : slide + 1)
-  };
+  }
 
   const prevSlide = () => {
     setSlide(slide === 0 ? pictures.length - 1 : slide - 1)
-  };
+  }
+
+  let hide = false
+  if (pictures.length === 1) {
+    hide = true
+  }
 
   return (
     <div className={css.carousel}>
-      <img src={leftArrow} alt="" onClick={prevSlide} className={`${css.arrow} ${css.arrowLeft}` }></img>
+      <img src={leftArrow} alt="" onClick={prevSlide} className={hide ? `${css.hide} ` : `${css.arrow} ${css.arrowLeft}`}></img>
       {pictures.map((item, idx) => {
         return (
           <img
@@ -29,9 +34,9 @@ const Carousel = ({ pictures }) => {
       })}
       <img src={rightArrow} alt=""
         onClick={nextSlide}
-        className={`${css.arrow} ${css.arrowRight}` }
+        className={hide ? `${css.hide} ` : `${css.arrow} ${css.arrowRight}`}
       ></img>
-      <p>{slide +1}/{pictures.length}</p> 
+      <p className={hide ? `${css.hide} ` : ""}>{slide +1}/{pictures.length}</p> 
     </div>
   )
 }

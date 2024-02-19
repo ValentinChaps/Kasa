@@ -30,6 +30,14 @@
   .arrow:hover {
     cursor: pointer;
   }
+
+  .hide{
+    display: none;
+  }
+
+  .show{
+    display: inline;
+  }
   
   .arrowLeft {
     left: 40px;

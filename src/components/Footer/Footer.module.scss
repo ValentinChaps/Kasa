@@ -8,7 +8,8 @@ footer{
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 100%;
+  width: 100vw;
+  margin-left: calc((100% - 100vw)/2);
   
 
 
