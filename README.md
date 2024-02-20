@@ -1,3 +1,8 @@
+Le projet Kasa est un site de location de bien immobilier. Il a été réalisé en React avec du SCSS. 
+
+Vous pouvez tester le site en vous servant de Create React App en suivant les indications ci-dessous.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
