@@ -9,10 +9,8 @@ footer{
   align-items: center;
   flex-direction: column;
   width: 100vw;
-  margin-left: calc((100% - 100vw)/2);
+  margin-left: calc(((100% - 100vw)/2) - 9px);
   
-
-
         .logo{
         height: 40px;
         padding-bottom: 40px;
@@ -32,10 +30,10 @@ footer{
         @media (max-width: 900px){
           font-size: 12px;
           margin-left: 50px;
-          p{
-            width: 70%;
-            text-align: center;
-          }
+            p{
+              width: 70%;
+              text-align: center;
+            }
           }
         }
 }
