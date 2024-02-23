@@ -1,20 +1,22 @@
 .tags{
     display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
 
     .tag{
-    display: flex;
+    text-align: center;
     color: white;
     font-family: Montserrat;
     font-size: 14px;
     font-style: normal;
+    font-weight: 700;
     background-color: #FF6060;
     margin-right: 20px;
     padding: 5px 20px 5px 20px;
     border-radius: 10px;
-    justify-content: center;
-    align-items: center;
+    white-space: nowrap;
     @media (max-width: 900px){
-        font-size: 8px;
+        font-size: 10px;
         }
     }
 }
