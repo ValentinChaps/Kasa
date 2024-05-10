@@ -1,5 +1,4 @@
 import { useState } from "react"
-import arrowDownOpen from "../../assets/arrowDown.png"
 import arrowUpClose from "../../assets/arrowUp.png"
 import "./Collapse.scss"
 
@@ -15,7 +14,7 @@ function Collapse({ size, title, content }) {
         className="btnCollapse"
       >
         <h2>{title}</h2>
-        <img src={visible ? arrowDownOpen : arrowUpClose} alt="" />
+        <img src={arrowUpClose} alt="" className={visible ? 'close' : ''} />
       </button>
       <div className={'collapsable ' + size + (visible ? ' show' : '')}>
         {Array.isArray(content) ? (
